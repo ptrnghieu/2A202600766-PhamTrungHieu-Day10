@@ -1,0 +1,694 @@
+{
+  "message": {
+    "items": [
+      {
+        "DOI": "10.xxxx/sample-0001",
+        "title": [
+          "Large Language Models for Retrieval Augmented Generation"
+        ],
+        "abstract": "This paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.",
+        "author": [
+          {
+            "given": "Alice",
+            "family": "Johnson"
+          },
+          {
+            "given": "Bob",
+            "family": "Smith"
+          }
+        ],
+        "subject": [
+          "Computer Science",
+          "Machine Learning"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0002",
+        "title": [
+          "Agentic Retrieval Systems with Neural Networks"
+        ],
+        "abstract": "We propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.",
+        "author": [
+          {
+            "given": "Charlie",
+            "family": "Brown"
+          },
+          {
+            "given": "Diana",
+            "family": "Prince"
+          },
+          {
+            "given": "Eve",
+            "family": "Wilson"
+          }
+        ],
+        "subject": [
+          "Natural Language Processing",
+          "Information Retrieval"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0003",
+        "title": [
+          "Fine-tuning Transformers for Semantic Search"
+        ],
+        "abstract": "This work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.",
+        "author": [
+          {
+            "given": "Frank",
+            "family": "Zhang"
+          }
+        ],
+        "subject": [
+          "Deep Learning",
+          "Neural Networks"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              3
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0004",
+        "title": [
+          "Neural Scaling Laws in Language Models"
+        ],
+        "abstract": "We investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.",
+        "author": [
+          {
+            "given": "Grace",
+            "family": "Lee"
+          },
+          {
+            "given": "Henry",
+            "family": "Wong"
+          }
+        ],
+        "subject": [
+          "Text Mining",
+          "Data Science"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0005",
+        "title": [
+          "Reinforcement Learning for Information Retrieval"
+        ],
+        "abstract": "This paper introduces a reinforcement learning approach to optimize retrieval systems. Experimental results show substantial improvements over supervised baselines.",
+        "author": [
+          {
+            "given": "Iris",
+            "family": "Park"
+          }
+        ],
+        "subject": [
+          "Artificial Intelligence",
+          "Computational Linguistics"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0006",
+        "title": [
+          "Knowledge Graphs and Vector Embeddings"
+        ],
+        "abstract": "We present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks.",
+        "author": [
+          {
+            "given": "Jack",
+            "family": "Turner"
+          },
+          {
+            "given": "Karen",
+            "family": "Davis"
+          }
+        ],
+        "subject": [
+          "Information Systems",
+          "Search"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0007",
+        "title": [
+          "Prompt Engineering for LLM-based Systems"
+        ],
+        "abstract": "This work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.",
+        "author": [
+          {
+            "given": "Leo",
+            "family": "Martin"
+          }
+        ],
+        "subject": [
+          "Computer Science",
+          "Machine Learning"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0008",
+        "title": [
+          "Efficient Retrieval with Dense Passage Vectors"
+        ],
+        "abstract": "We propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.",
+        "author": [
+          {
+            "given": "Maya",
+            "family": "Patel"
+          },
+          {
+            "given": "Noah",
+            "family": "Harris"
+          }
+        ],
+        "subject": [
+          "Natural Language Processing",
+          "Information Retrieval"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0009",
+        "title": [
+          "Multi-hop Reasoning in Retrieval Augmented Systems"
+        ],
+        "abstract": "This paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task.",
+        "author": [
+          {
+            "given": "Oliver",
+            "family": "Scott"
+          }
+        ],
+        "subject": [
+          "Deep Learning",
+          "Neural Networks"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0010",
+        "title": [
+          "Hybrid Search: Dense and Sparse Retrieval"
+        ],
+        "abstract": "We explore hybrid search combining dense and sparse retrieval methods. Experimental results demonstrate the benefits of multi-strategy approaches.",
+        "author": [
+          {
+            "given": "Paula",
+            "family": "Green"
+          }
+        ],
+        "subject": [
+          "Text Mining",
+          "Data Science"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0011",
+        "title": [
+          "Evaluating Retrieval Quality in RAG Systems"
+        ],
+        "abstract": "This paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.",
+        "author": [
+          {
+            "given": "Alice",
+            "family": "Johnson"
+          },
+          {
+            "given": "Bob",
+            "family": "Smith"
+          }
+        ],
+        "subject": [
+          "Artificial Intelligence",
+          "Computational Linguistics"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0012",
+        "title": [
+          "Domain Adaptation for Specialized Corpora"
+        ],
+        "abstract": "We propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.",
+        "author": [
+          {
+            "given": "Charlie",
+            "family": "Brown"
+          },
+          {
+            "given": "Diana",
+            "family": "Prince"
+          },
+          {
+            "given": "Eve",
+            "family": "Wilson"
+          }
+        ],
+        "subject": [
+          "Information Systems",
+          "Search"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0013",
+        "title": [
+          "Context Window Optimization in LLMs"
+        ],
+        "abstract": "This work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.",
+        "author": [
+          {
+            "given": "Frank",
+            "family": "Zhang"
+          }
+        ],
+        "subject": [
+          "Computer Science",
+          "Machine Learning"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              13
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0014",
+        "title": [
+          "Zero-shot Learning for Cross-domain Retrieval"
+        ],
+        "abstract": "We investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.",
+        "author": [
+          {
+            "given": "Grace",
+            "family": "Lee"
+          },
+          {
+            "given": "Henry",
+            "family": "Wong"
+          }
+        ],
+        "subject": [
+          "Natural Language Processing",
+          "Information Retrieval"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              14
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0015",
+        "title": [
+          "Memory-efficient Embeddings for Large Collections"
+        ],
+        "abstract": "This paper introduces a reinforcement learning approach to optimize retrieval systems. Experimental results show substantial improvements over supervised baselines.",
+        "author": [
+          {
+            "given": "Iris",
+            "family": "Park"
+          }
+        ],
+        "subject": [
+          "Deep Learning",
+          "Neural Networks"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              15
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0016",
+        "title": [
+          "Streaming Evaluation of Retrieval Systems"
+        ],
+        "abstract": "We present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks.",
+        "author": [
+          {
+            "given": "Jack",
+            "family": "Turner"
+          },
+          {
+            "given": "Karen",
+            "family": "Davis"
+          }
+        ],
+        "subject": [
+          "Text Mining",
+          "Data Science"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              16
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0017",
+        "title": [
+          "Chain-of-thought Reasoning in Agents"
+        ],
+        "abstract": "This work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.",
+        "author": [
+          {
+            "given": "Leo",
+            "family": "Martin"
+          }
+        ],
+        "subject": [
+          "Artificial Intelligence",
+          "Computational Linguistics"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              17
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0018",
+        "title": [
+          "Knowledge Distillation for Efficient Embeddings"
+        ],
+        "abstract": "We propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.",
+        "author": [
+          {
+            "given": "Maya",
+            "family": "Patel"
+          },
+          {
+            "given": "Noah",
+            "family": "Harris"
+          }
+        ],
+        "subject": [
+          "Information Systems",
+          "Search"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              18
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0019",
+        "title": [
+          "Temporal Information in Document Ranking"
+        ],
+        "abstract": "This paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task.",
+        "author": [
+          {
+            "given": "Oliver",
+            "family": "Scott"
+          }
+        ],
+        "subject": [
+          "Computer Science",
+          "Machine Learning"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0020",
+        "title": [
+          "Multilingual Retrieval Augmented Generation"
+        ],
+        "abstract": "We explore hybrid search combining dense and sparse retrieval methods. Experimental results demonstrate the benefits of multi-strategy approaches.",
+        "author": [
+          {
+            "given": "Paula",
+            "family": "Green"
+          }
+        ],
+        "subject": [
+          "Natural Language Processing",
+          "Information Retrieval"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              20
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0021",
+        "title": [
+          "Robust Retrieval under Noisy Conditions"
+        ],
+        "abstract": "This paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.",
+        "author": [
+          {
+            "given": "Alice",
+            "family": "Johnson"
+          },
+          {
+            "given": "Bob",
+            "family": "Smith"
+          }
+        ],
+        "subject": [
+          "Deep Learning",
+          "Neural Networks"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              21
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0022",
+        "title": [
+          "Interactive Learning for Retrieval Systems"
+        ],
+        "abstract": "We propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.",
+        "author": [
+          {
+            "given": "Charlie",
+            "family": "Brown"
+          },
+          {
+            "given": "Diana",
+            "family": "Prince"
+          },
+          {
+            "given": "Eve",
+            "family": "Wilson"
+          }
+        ],
+        "subject": [
+          "Text Mining",
+          "Data Science"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              22
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0023",
+        "title": [
+          "Diversity-aware Ranking in Search"
+        ],
+        "abstract": "This work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.",
+        "author": [
+          {
+            "given": "Frank",
+            "family": "Zhang"
+          }
+        ],
+        "subject": [
+          "Artificial Intelligence",
+          "Computational Linguistics"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              23
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.xxxx/sample-0024",
+        "title": [
+          "Federated Learning for Privacy-preserving Retrieval"
+        ],
+        "abstract": "We investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.",
+        "author": [
+          {
+            "given": "Grace",
+            "family": "Lee"
+          },
+          {
+            "given": "Henry",
+            "family": "Wong"
+          }
+        ],
+        "subject": [
+          "Information Systems",
+          "Search"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              24
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

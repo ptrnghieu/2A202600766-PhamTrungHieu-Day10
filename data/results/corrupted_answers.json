@@ -1,0 +1,698 @@
+[
+  {
+    "id": "q001",
+    "question_type": "summary",
+    "question": "What is the summary of 'Interactive Learning for Retrieval Systems'?",
+    "ground_truth": "We propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0022"
+    ],
+    "answer": "We present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval.",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0006",
+      "10.xxxx/sample-0011",
+      "10.xxxx/sample-0024",
+      "10.xxxx/sample-0016"
+    ],
+    "retrieved_contexts": [
+      "Knowledge Graphs and Vector Embeddings\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks.\nJack Turner, Karen Davis",
+      "Evaluating Retrieval Quality in RAG Systems\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "Federated Learning for Privacy-preserving Retrieval\n\nGrace Lee, Henry Wong",
+      "Streaming Evaluation of Retrieval Systems\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks. ^%#^^%&$$^\nJack Turner, Karen Davis"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.10810810810810811,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q002",
+    "question_type": "authors",
+    "question": "Who authored 'Interactive Learning for Retrieval Systems'?",
+    "ground_truth": "Charlie Brown, Diana Prince, Eve Wilson",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0022"
+    ],
+    "answer": "Jack Turner, Karen Davis",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0016",
+      "10.xxxx/sample-0021",
+      "10.xxxx/sample-0003",
+      "10.xxxx/sample-0009"
+    ],
+    "retrieved_contexts": [
+      "Streaming Evaluation of Retrieval Systems\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks. ^%#^^%&$$^\nJack Turner, Karen Davis",
+      "Robust Retrieval under Noisy Conditions\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "Fine-tuning Transformers for Semantic Search\nThis work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.\nFrank Zhang",
+      "Multi-hop Reasoning in Retriev\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task. $@@#$%!#%#\nOliver Scott"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q003",
+    "question_type": "date",
+    "question": "When was 'Interactive Learning for Retrieval Systems' published?",
+    "ground_truth": "2024-10-22",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0022"
+    ],
+    "answer": "2023-01-01",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0001",
+      "10.xxxx/sample-0001",
+      "10.xxxx/sample-0020",
+      "10.xxxx/sample-0024"
+    ],
+    "retrieved_contexts": [
+      "Large Language Models for Retrieval Augmented Generation\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "Large Language Models for Retrieval Augmented Generation\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "Multilingual Retrieval Augmented Generation\nWe explore hybrid search combining dense and sparse retrieval methods. Experimental results demonstrate the benefits of multi-strategy approaches.\nPaula Green",
+      "Federated Learning for Privacy-preserving Retrieval\n\nGrace Lee, Henry Wong"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q004",
+    "question_type": "categories",
+    "question": "What categories does 'Interactive Learning for Retrieval Systems' belong to?",
+    "ground_truth": "Text Mining, Data Science",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0022"
+    ],
+    "answer": "Deep Learning, Neural Networks",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0009",
+      "10.xxxx/sample-0017",
+      "10.xxxx/sample-0016",
+      "10.xxxx/sample-0008"
+    ],
+    "retrieved_contexts": [
+      "Multi-hop Reasoning in Retriev\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task. $@@#$%!#%#\nOliver Scott",
+      "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin",
+      "Streaming Evaluation of Retrieval Systems\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks. ^%#^^%&$$^\nJack Turner, Karen Davis",
+      "Efficient Retrieval with Dense Passage Vectors\nWe propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.\nMaya Patel, Noah Harris"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q005",
+    "question_type": "summary",
+    "question": "What is the summary of 'Streaming Evaluation of Retrieval Systems'?",
+    "ground_truth": "We present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0016"
+    ],
+    "answer": "We present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval.",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0016",
+      "10.xxxx/sample-0003",
+      "10.xxxx/sample-0015",
+      "10.xxxx/sample-0017"
+    ],
+    "retrieved_contexts": [
+      "Streaming Evaluation of Retrieval Systems\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks. ^%#^^%&$$^\nJack Turner, Karen Davis",
+      "Fine-tuning Transformers for Semantic Search\nThis work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.\nFrank Zhang",
+      "Memory-efficient Embeddings for Large Collections\n &*!#$#^%^^\nIris Park",
+      "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.7272727272727273,
+    "judge": {
+      "score": 3,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q006",
+    "question_type": "authors",
+    "question": "Who authored 'Streaming Evaluation of Retrieval Systems'?",
+    "ground_truth": "Jack Turner, Karen Davis",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0016"
+    ],
+    "answer": "Jack Turner, Karen Davis",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0016",
+      "10.xxxx/sample-0017",
+      "10.xxxx/sample-0019",
+      "10.xxxx/sample-0006"
+    ],
+    "retrieved_contexts": [
+      "Streaming Evaluation of Retrieval Systems\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks. ^%#^^%&$$^\nJack Turner, Karen Davis",
+      "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin",
+      "Temporal Information in Document Ranking\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task.\nOliver Scott",
+      "Knowledge Graphs and Vector Embeddings\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks.\nJack Turner, Karen Davis"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q007",
+    "question_type": "date",
+    "question": "When was 'Streaming Evaluation of Retrieval Systems' published?",
+    "ground_truth": "2024-04-16",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0016"
+    ],
+    "answer": "2024-04-16",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0016",
+      "10.xxxx/sample-0018",
+      "10.xxxx/sample-0011",
+      "10.xxxx/sample-0015"
+    ],
+    "retrieved_contexts": [
+      "Streaming Evaluation of Retrieval Systems\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks. ^%#^^%&$$^\nJack Turner, Karen Davis",
+      "Knowledge Distillation for Efficient Embeddings\nWe propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.\nMaya Patel, Noah Harris",
+      "Evaluating Retrieval Quality in RAG Systems\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "Memory-efficient Embeddings for Large Collections\n &*!#$#^%^^\nIris Park"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q008",
+    "question_type": "categories",
+    "question": "What categories does 'Streaming Evaluation of Retrieval Systems' belong to?",
+    "ground_truth": "Text Mining, Data Science",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0016"
+    ],
+    "answer": "Text Mining, Data Science",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0016",
+      "10.xxxx/sample-0019",
+      "10.xxxx/sample-0004",
+      "10.xxxx/sample-0013"
+    ],
+    "retrieved_contexts": [
+      "Streaming Evaluation of Retrieval Systems\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks. ^%#^^%&$$^\nJack Turner, Karen Davis",
+      "Temporal Information in Document Ranking\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task.\nOliver Scott",
+      "Neural Scaling Laws in Language Models\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong",
+      "Context Window Optimization in LLMs\n\nFrank Zhang"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q009",
+    "question_type": "summary",
+    "question": "What is the summary of 'Diversity-aware Ranking in Search'?",
+    "ground_truth": "This work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0023"
+    ],
+    "answer": "This work explores fine-tuning strategies for transformer models in semantic search applications.",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0003",
+      "10.xxxx/sample-0012",
+      "10.xxxx/sample-0017",
+      "10.xxxx/sample-0016"
+    ],
+    "retrieved_contexts": [
+      "Fine-tuning Transformers for Semantic Search\nThis work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.\nFrank Zhang",
+      "Domain Adaptation for Specialized Corpora\nWe propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.\nCharlie Brown, Diana Prince, Eve Wilson",
+      "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin",
+      "Streaming Evaluation of Retrieval Systems\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks. ^%#^^%&$$^\nJack Turner, Karen Davis"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.6666666666666666,
+    "judge": {
+      "score": 3,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q010",
+    "question_type": "authors",
+    "question": "Who authored 'Diversity-aware Ranking in Search'?",
+    "ground_truth": "Frank Zhang",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0023"
+    ],
+    "answer": "Alice Johnson, Bob Smith",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0001",
+      "10.xxxx/sample-0001",
+      "10.xxxx/sample-0004",
+      "10.xxxx/sample-0016"
+    ],
+    "retrieved_contexts": [
+      "Large Language Models for Retrieval Augmented Generation\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "Large Language Models for Retrieval Augmented Generation\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "Neural Scaling Laws in Language Models\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong",
+      "Streaming Evaluation of Retrieval Systems\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks. ^%#^^%&$$^\nJack Turner, Karen Davis"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q011",
+    "question_type": "date",
+    "question": "When was 'Diversity-aware Ranking in Search' published?",
+    "ground_truth": "2023-11-23",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0023"
+    ],
+    "answer": "2022-09-09",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0009",
+      "10.xxxx/sample-0016",
+      "10.xxxx/sample-0004",
+      "10.xxxx/sample-0017"
+    ],
+    "retrieved_contexts": [
+      "Multi-hop Reasoning in Retriev\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task. $@@#$%!#%#\nOliver Scott",
+      "Streaming Evaluation of Retrieval Systems\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks. ^%#^^%&$$^\nJack Turner, Karen Davis",
+      "Neural Scaling Laws in Language Models\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong",
+      "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q012",
+    "question_type": "categories",
+    "question": "What categories does 'Diversity-aware Ranking in Search' belong to?",
+    "ground_truth": "Artificial Intelligence, Computational Linguistics",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0023"
+    ],
+    "answer": "Artificial Intelligence, Computational Linguistics",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0017",
+      "10.xxxx/sample-0021",
+      "10.xxxx/sample-0014",
+      "10.xxxx/sample-0019"
+    ],
+    "retrieved_contexts": [
+      "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin",
+      "Robust Retrieval under Noisy Conditions\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "Zero-shot Learning for Cross-domain Retrieval\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong",
+      "Temporal Information in Document Ranking\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task.\nOliver Scott"
+    ],
+    "retrieval_hit": false,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q013",
+    "question_type": "summary",
+    "question": "What is the summary of 'Chain-of-thought Reasoning in Agents'?",
+    "ground_truth": "This work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0017"
+    ],
+    "answer": "This work focuses on prompt engineering techniques for improving LLM-based retrieval systems.",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0017",
+      "10.xxxx/sample-0008",
+      "10.xxxx/sample-0013",
+      "10.xxxx/sample-0005"
+    ],
+    "retrieved_contexts": [
+      "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin",
+      "Efficient Retrieval with Dense Passage Vectors\nWe propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.\nMaya Patel, Noah Harris",
+      "Context Window Optimization in LLMs\n\nFrank Zhang",
+      "Reinforcement Learning for Information Retrieval\nThis paper introduces a reinforcement learning approach to optimize retrieval systems. Experimental results show substantial improvements over supervised baselines.\nIris Park"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.7741935483870968,
+    "judge": {
+      "score": 3,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q014",
+    "question_type": "authors",
+    "question": "Who authored 'Chain-of-thought Reasoning in Agents'?",
+    "ground_truth": "Leo Martin",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0017"
+    ],
+    "answer": "Leo Martin",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0017",
+      "10.xxxx/sample-0014",
+      "10.xxxx/sample-0024",
+      "10.xxxx/sample-0002"
+    ],
+    "retrieved_contexts": [
+      "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin",
+      "Zero-shot Learning for Cross-domain Retrieval\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong",
+      "Federated Learning for Privacy-preserving Retrieval\n\nGrace Lee, Henry Wong",
+      "Agentic Retrieval Systems with Neural Networks\nWe propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.\nCharlie Brown, Diana Prince, Eve Wilson"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q015",
+    "question_type": "date",
+    "question": "When was 'Chain-of-thought Reasoning in Agents' published?",
+    "ground_truth": "2023-05-17",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0017"
+    ],
+    "answer": "2023-05-17",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0017",
+      "10.xxxx/sample-0014",
+      "10.xxxx/sample-0023",
+      "10.xxxx/sample-0005"
+    ],
+    "retrieved_contexts": [
+      "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin",
+      "Zero-shot Learning for Cross-domain Retrieval\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong",
+      "Diversity-aware Ranking in Sea\nThis work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.\nFrank Zhang",
+      "Reinforcement Learning for Information Retrieval\nThis paper introduces a reinforcement learning approach to optimize retrieval systems. Experimental results show substantial improvements over supervised baselines.\nIris Park"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q016",
+    "question_type": "categories",
+    "question": "What categories does 'Chain-of-thought Reasoning in Agents' belong to?",
+    "ground_truth": "Artificial Intelligence, Computational Linguistics",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0017"
+    ],
+    "answer": "Artificial Intelligence, Computational Linguistics",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0017",
+      "10.xxxx/sample-0018",
+      "10.xxxx/sample-0014",
+      "10.xxxx/sample-0013"
+    ],
+    "retrieved_contexts": [
+      "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin",
+      "Knowledge Distillation for Efficient Embeddings\nWe propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.\nMaya Patel, Noah Harris",
+      "Zero-shot Learning for Cross-domain Retrieval\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong",
+      "Context Window Optimization in LLMs\n\nFrank Zhang"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q017",
+    "question_type": "summary",
+    "question": "What is the summary of 'Federated Learning for Privacy-preserving Retrieval'?",
+    "ground_truth": "We investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0024"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0024",
+      "10.xxxx/sample-0013",
+      "10.xxxx/sample-0019",
+      "10.xxxx/sample-0018"
+    ],
+    "retrieved_contexts": [
+      "Federated Learning for Privacy-preserving Retrieval\n\nGrace Lee, Henry Wong",
+      "Context Window Optimization in LLMs\n\nFrank Zhang",
+      "Temporal Information in Document Ranking\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task.\nOliver Scott",
+      "Knowledge Distillation for Efficient Embeddings\nWe propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.\nMaya Patel, Noah Harris"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q018",
+    "question_type": "authors",
+    "question": "Who authored 'Federated Learning for Privacy-preserving Retrieval'?",
+    "ground_truth": "Grace Lee, Henry Wong",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0024"
+    ],
+    "answer": "Grace Lee, Henry Wong",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0024",
+      "10.xxxx/sample-0012",
+      "10.xxxx/sample-0017",
+      "10.xxxx/sample-0009"
+    ],
+    "retrieved_contexts": [
+      "Federated Learning for Privacy-preserving Retrieval\n\nGrace Lee, Henry Wong",
+      "Domain Adaptation for Specialized Corpora\nWe propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.\nCharlie Brown, Diana Prince, Eve Wilson",
+      "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin",
+      "Multi-hop Reasoning in Retriev\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task. $@@#$%!#%#\nOliver Scott"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q019",
+    "question_type": "date",
+    "question": "When was 'Federated Learning for Privacy-preserving Retrieval' published?",
+    "ground_truth": "2022-12-24",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0024"
+    ],
+    "answer": "2021-12-24",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0024",
+      "10.xxxx/sample-0009",
+      "10.xxxx/sample-0011",
+      "10.xxxx/sample-0004"
+    ],
+    "retrieved_contexts": [
+      "Federated Learning for Privacy-preserving Retrieval\n\nGrace Lee, Henry Wong",
+      "Multi-hop Reasoning in Retriev\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task. $@@#$%!#%#\nOliver Scott",
+      "Evaluating Retrieval Quality in RAG Systems\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "Neural Scaling Laws in Language Models\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q020",
+    "question_type": "categories",
+    "question": "What categories does 'Federated Learning for Privacy-preserving Retrieval' belong to?",
+    "ground_truth": "Information Systems, Search",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0024"
+    ],
+    "answer": "Information Systems, Search",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0024",
+      "10.xxxx/sample-0006",
+      "10.xxxx/sample-0023",
+      "10.xxxx/sample-0003"
+    ],
+    "retrieved_contexts": [
+      "Federated Learning for Privacy-preserving Retrieval\n\nGrace Lee, Henry Wong",
+      "Knowledge Graphs and Vector Embeddings\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks.\nJack Turner, Karen Davis",
+      "Diversity-aware Ranking in Sea\nThis work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.\nFrank Zhang",
+      "Fine-tuning Transformers for Semantic Search\nThis work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.\nFrank Zhang"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q021",
+    "question_type": "summary",
+    "question": "What is the summary of 'Knowledge Distillation for Efficient Embeddings'?",
+    "ground_truth": "We propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0018"
+    ],
+    "answer": "We propose efficient retrieval methods using dense passage vectors.",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0018",
+      "10.xxxx/sample-0002",
+      "10.xxxx/sample-0019",
+      "10.xxxx/sample-0009"
+    ],
+    "retrieved_contexts": [
+      "Knowledge Distillation for Efficient Embeddings\nWe propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.\nMaya Patel, Noah Harris",
+      "Agentic Retrieval Systems with Neural Networks\nWe propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.\nCharlie Brown, Diana Prince, Eve Wilson",
+      "Temporal Information in Document Ranking\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task.\nOliver Scott",
+      "Multi-hop Reasoning in Retriev\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task. $@@#$%!#%#\nOliver Scott"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.6666666666666666,
+    "judge": {
+      "score": 3,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q022",
+    "question_type": "authors",
+    "question": "Who authored 'Knowledge Distillation for Efficient Embeddings'?",
+    "ground_truth": "Maya Patel, Noah Harris",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0018"
+    ],
+    "answer": "Maya Patel, Noah Harris",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0018",
+      "10.xxxx/sample-0009",
+      "10.xxxx/sample-0021",
+      "10.xxxx/sample-0007"
+    ],
+    "retrieved_contexts": [
+      "Knowledge Distillation for Efficient Embeddings\nWe propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.\nMaya Patel, Noah Harris",
+      "Multi-hop Reasoning in Retriev\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task. $@@#$%!#%#\nOliver Scott",
+      "Robust Retrieval under Noisy Conditions\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "Prompt Engineering for LLM-based Systems\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization. $!#&@$&^*&\nLeo Martin"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q023",
+    "question_type": "date",
+    "question": "When was 'Knowledge Distillation for Efficient Embeddings' published?",
+    "ground_truth": "2022-06-18",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0018"
+    ],
+    "answer": "2021-06-18",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0018",
+      "10.xxxx/sample-0013",
+      "10.xxxx/sample-0003",
+      "10.xxxx/sample-0001"
+    ],
+    "retrieved_contexts": [
+      "Knowledge Distillation for Efficient Embeddings\nWe propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.\nMaya Patel, Noah Harris",
+      "Context Window Optimization in LLMs\n\nFrank Zhang",
+      "Fine-tuning Transformers for Semantic Search\nThis work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.\nFrank Zhang",
+      "Large Language Models for Retrieval Augmented Generation\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q024",
+    "question_type": "categories",
+    "question": "What categories does 'Knowledge Distillation for Efficient Embeddings' belong to?",
+    "ground_truth": "Information Systems, Search",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0018"
+    ],
+    "answer": "Information Systems, Search",
+    "retrieved_doc_ids": [
+      "10.xxxx/sample-0018",
+      "10.xxxx/sample-0014",
+      "10.xxxx/sample-0011",
+      "10.xxxx/sample-0004"
+    ],
+    "retrieved_contexts": [
+      "Knowledge Distillation for Efficient Embeddings\nWe propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.\nMaya Patel, Noah Harris",
+      "Zero-shot Learning for Cross-domain Retrieval\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong",
+      "Evaluating Retrieval Quality in RAG Systems\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "Neural Scaling Laws in Language Models\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong"
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "q001",
+    "question_type": "summary",
+    "question": "What is the summary of 'Interactive Learning for Retrieval Systems'?",
+    "ground_truth": "We propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0022"
+    ]
+  },
+  {
+    "id": "q002",
+    "question_type": "authors",
+    "question": "Who authored 'Interactive Learning for Retrieval Systems'?",
+    "ground_truth": "Charlie Brown, Diana Prince, Eve Wilson",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0022"
+    ]
+  },
+  {
+    "id": "q003",
+    "question_type": "date",
+    "question": "When was 'Interactive Learning for Retrieval Systems' published?",
+    "ground_truth": "2024-10-22",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0022"
+    ]
+  },
+  {
+    "id": "q004",
+    "question_type": "categories",
+    "question": "What categories does 'Interactive Learning for Retrieval Systems' belong to?",
+    "ground_truth": "Text Mining, Data Science",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0022"
+    ]
+  },
+  {
+    "id": "q005",
+    "question_type": "summary",
+    "question": "What is the summary of 'Streaming Evaluation of Retrieval Systems'?",
+    "ground_truth": "We present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0016"
+    ]
+  },
+  {
+    "id": "q006",
+    "question_type": "authors",
+    "question": "Who authored 'Streaming Evaluation of Retrieval Systems'?",
+    "ground_truth": "Jack Turner, Karen Davis",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0016"
+    ]
+  },
+  {
+    "id": "q007",
+    "question_type": "date",
+    "question": "When was 'Streaming Evaluation of Retrieval Systems' published?",
+    "ground_truth": "2024-04-16",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0016"
+    ]
+  },
+  {
+    "id": "q008",
+    "question_type": "categories",
+    "question": "What categories does 'Streaming Evaluation of Retrieval Systems' belong to?",
+    "ground_truth": "Text Mining, Data Science",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0016"
+    ]
+  },
+  {
+    "id": "q009",
+    "question_type": "summary",
+    "question": "What is the summary of 'Diversity-aware Ranking in Search'?",
+    "ground_truth": "This work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0023"
+    ]
+  },
+  {
+    "id": "q010",
+    "question_type": "authors",
+    "question": "Who authored 'Diversity-aware Ranking in Search'?",
+    "ground_truth": "Frank Zhang",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0023"
+    ]
+  },
+  {
+    "id": "q011",
+    "question_type": "date",
+    "question": "When was 'Diversity-aware Ranking in Search' published?",
+    "ground_truth": "2023-11-23",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0023"
+    ]
+  },
+  {
+    "id": "q012",
+    "question_type": "categories",
+    "question": "What categories does 'Diversity-aware Ranking in Search' belong to?",
+    "ground_truth": "Artificial Intelligence, Computational Linguistics",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0023"
+    ]
+  },
+  {
+    "id": "q013",
+    "question_type": "summary",
+    "question": "What is the summary of 'Chain-of-thought Reasoning in Agents'?",
+    "ground_truth": "This work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0017"
+    ]
+  },
+  {
+    "id": "q014",
+    "question_type": "authors",
+    "question": "Who authored 'Chain-of-thought Reasoning in Agents'?",
+    "ground_truth": "Leo Martin",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0017"
+    ]
+  },
+  {
+    "id": "q015",
+    "question_type": "date",
+    "question": "When was 'Chain-of-thought Reasoning in Agents' published?",
+    "ground_truth": "2023-05-17",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0017"
+    ]
+  },
+  {
+    "id": "q016",
+    "question_type": "categories",
+    "question": "What categories does 'Chain-of-thought Reasoning in Agents' belong to?",
+    "ground_truth": "Artificial Intelligence, Computational Linguistics",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0017"
+    ]
+  },
+  {
+    "id": "q017",
+    "question_type": "summary",
+    "question": "What is the summary of 'Federated Learning for Privacy-preserving Retrieval'?",
+    "ground_truth": "We investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0024"
+    ]
+  },
+  {
+    "id": "q018",
+    "question_type": "authors",
+    "question": "Who authored 'Federated Learning for Privacy-preserving Retrieval'?",
+    "ground_truth": "Grace Lee, Henry Wong",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0024"
+    ]
+  },
+  {
+    "id": "q019",
+    "question_type": "date",
+    "question": "When was 'Federated Learning for Privacy-preserving Retrieval' published?",
+    "ground_truth": "2022-12-24",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0024"
+    ]
+  },
+  {
+    "id": "q020",
+    "question_type": "categories",
+    "question": "What categories does 'Federated Learning for Privacy-preserving Retrieval' belong to?",
+    "ground_truth": "Information Systems, Search",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0024"
+    ]
+  },
+  {
+    "id": "q021",
+    "question_type": "summary",
+    "question": "What is the summary of 'Knowledge Distillation for Efficient Embeddings'?",
+    "ground_truth": "We propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0018"
+    ]
+  },
+  {
+    "id": "q022",
+    "question_type": "authors",
+    "question": "Who authored 'Knowledge Distillation for Efficient Embeddings'?",
+    "ground_truth": "Maya Patel, Noah Harris",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0018"
+    ]
+  },
+  {
+    "id": "q023",
+    "question_type": "date",
+    "question": "When was 'Knowledge Distillation for Efficient Embeddings' published?",
+    "ground_truth": "2022-06-18",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0018"
+    ]
+  },
+  {
+    "id": "q024",
+    "question_type": "categories",
+    "question": "What categories does 'Knowledge Distillation for Efficient Embeddings' belong to?",
+    "ground_truth": "Information Systems, Search",
+    "ground_truth_doc_ids": [
+      "10.xxxx/sample-0018"
+    ]
+  }
+]

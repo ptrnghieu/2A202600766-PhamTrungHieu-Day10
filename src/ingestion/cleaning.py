@@ -30,7 +30,7 @@ def build_clean_dataframe(records: list[PaperRecord], run_date: datetime) -> pd.
         except Exception:
             updated = published
 
-        if published > run_date:
+        if published.date() > run_date.date():
             continue
 
         age_days = (run_date.date() - published.date()).days

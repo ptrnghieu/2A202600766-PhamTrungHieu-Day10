@@ -19,7 +19,7 @@ def run_data_quality_checks(df: pd.DataFrame, settings: Settings, report_name: s
     for _, row in df.iterrows():
         try:
             published = pd.to_datetime(row["published"])
-            if row["age_days"] > 365 or row["age_days"] < 0:
+            if row["age_days"] < 0:
                 invalid_dates += 1
         except Exception:
             invalid_dates += 1

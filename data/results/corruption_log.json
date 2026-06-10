@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-06-10T13:46:12.288144",
+  "total_rows_input": 24,
+  "corruptions": {
+    "dropped_latest_count": 2,
+    "blanked_summary_count": 3,
+    "noise_injected_count": 4,
+    "truncated_titles_count": 2,
+    "staled_dates_count": 5,
+    "duplicated_rows_count": 1
+  },
+  "affected_rows": 17,
+  "total_rows_output": 23
+}

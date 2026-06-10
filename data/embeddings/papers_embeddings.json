@@ -1,0 +1,392 @@
+{
+  "backend": "chroma",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "persist_path": "/home/user/2A2026-PhamTrungHieu-Day10/data/chroma",
+  "collection_name": "papers-baseline",
+  "documents": [
+    {
+      "record_id": "10.xxxx/sample-0022::0",
+      "paper_id": "10.xxxx/sample-0022",
+      "title": "Interactive Learning for Retrieval Systems",
+      "content": "Interactive Learning for Retrieval Systems\nWe propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.\nCharlie Brown, Diana Prince, Eve Wilson",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0022",
+        "title": "Interactive Learning for Retrieval Systems",
+        "published": "2024-10-22",
+        "authors_joined": "Charlie Brown, Diana Prince, Eve Wilson",
+        "categories_joined": "Text Mining, Data Science",
+        "summary": "We propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0022",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0010::1",
+      "paper_id": "10.xxxx/sample-0010",
+      "title": "Hybrid Search: Dense and Sparse Retrieval",
+      "content": "Hybrid Search: Dense and Sparse Retrieval\nWe explore hybrid search combining dense and sparse retrieval methods. Experimental results demonstrate the benefits of multi-strategy approaches.\nPaula Green",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0010",
+        "title": "Hybrid Search: Dense and Sparse Retrieval",
+        "published": "2024-10-10",
+        "authors_joined": "Paula Green",
+        "categories_joined": "Text Mining, Data Science",
+        "summary": "We explore hybrid search combining dense and sparse retrieval methods. Experimental results demonstrate the benefits of multi-strategy approaches.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0010",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0019::2",
+      "paper_id": "10.xxxx/sample-0019",
+      "title": "Temporal Information in Document Ranking",
+      "content": "Temporal Information in Document Ranking\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task.\nOliver Scott",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0019",
+        "title": "Temporal Information in Document Ranking",
+        "published": "2024-07-19",
+        "authors_joined": "Oliver Scott",
+        "categories_joined": "Computer Science, Machine Learning",
+        "summary": "This paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0019",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0007::3",
+      "paper_id": "10.xxxx/sample-0007",
+      "title": "Prompt Engineering for LLM-based Systems",
+      "content": "Prompt Engineering for LLM-based Systems\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0007",
+        "title": "Prompt Engineering for LLM-based Systems",
+        "published": "2024-07-07",
+        "authors_joined": "Leo Martin",
+        "categories_joined": "Computer Science, Machine Learning",
+        "summary": "This work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0007",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0016::4",
+      "paper_id": "10.xxxx/sample-0016",
+      "title": "Streaming Evaluation of Retrieval Systems",
+      "content": "Streaming Evaluation of Retrieval Systems\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks.\nJack Turner, Karen Davis",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0016",
+        "title": "Streaming Evaluation of Retrieval Systems",
+        "published": "2024-04-16",
+        "authors_joined": "Jack Turner, Karen Davis",
+        "categories_joined": "Text Mining, Data Science",
+        "summary": "We present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0016",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0004::5",
+      "paper_id": "10.xxxx/sample-0004",
+      "title": "Neural Scaling Laws in Language Models",
+      "content": "Neural Scaling Laws in Language Models\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0004",
+        "title": "Neural Scaling Laws in Language Models",
+        "published": "2024-04-04",
+        "authors_joined": "Grace Lee, Henry Wong",
+        "categories_joined": "Text Mining, Data Science",
+        "summary": "We investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0004",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0013::6",
+      "paper_id": "10.xxxx/sample-0013",
+      "title": "Context Window Optimization in LLMs",
+      "content": "Context Window Optimization in LLMs\nThis work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.\nFrank Zhang",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0013",
+        "title": "Context Window Optimization in LLMs",
+        "published": "2024-01-13",
+        "authors_joined": "Frank Zhang",
+        "categories_joined": "Computer Science, Machine Learning",
+        "summary": "This work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0013",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0001::7",
+      "paper_id": "10.xxxx/sample-0001",
+      "title": "Large Language Models for Retrieval Augmented Generation",
+      "content": "Large Language Models for Retrieval Augmented Generation\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0001",
+        "title": "Large Language Models for Retrieval Augmented Generation",
+        "published": "2024-01-01",
+        "authors_joined": "Alice Johnson, Bob Smith",
+        "categories_joined": "Computer Science, Machine Learning",
+        "summary": "This paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0001",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0023::8",
+      "paper_id": "10.xxxx/sample-0023",
+      "title": "Diversity-aware Ranking in Search",
+      "content": "Diversity-aware Ranking in Search\nThis work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.\nFrank Zhang",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0023",
+        "title": "Diversity-aware Ranking in Search",
+        "published": "2023-11-23",
+        "authors_joined": "Frank Zhang",
+        "categories_joined": "Artificial Intelligence, Computational Linguistics",
+        "summary": "This work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0023",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0011::9",
+      "paper_id": "10.xxxx/sample-0011",
+      "title": "Evaluating Retrieval Quality in RAG Systems",
+      "content": "Evaluating Retrieval Quality in RAG Systems\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0011",
+        "title": "Evaluating Retrieval Quality in RAG Systems",
+        "published": "2023-11-11",
+        "authors_joined": "Alice Johnson, Bob Smith",
+        "categories_joined": "Artificial Intelligence, Computational Linguistics",
+        "summary": "This paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0011",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0020::10",
+      "paper_id": "10.xxxx/sample-0020",
+      "title": "Multilingual Retrieval Augmented Generation",
+      "content": "Multilingual Retrieval Augmented Generation\nWe explore hybrid search combining dense and sparse retrieval methods. Experimental results demonstrate the benefits of multi-strategy approaches.\nPaula Green",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0020",
+        "title": "Multilingual Retrieval Augmented Generation",
+        "published": "2023-08-20",
+        "authors_joined": "Paula Green",
+        "categories_joined": "Natural Language Processing, Information Retrieval",
+        "summary": "We explore hybrid search combining dense and sparse retrieval methods. Experimental results demonstrate the benefits of multi-strategy approaches.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0020",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0008::11",
+      "paper_id": "10.xxxx/sample-0008",
+      "title": "Efficient Retrieval with Dense Passage Vectors",
+      "content": "Efficient Retrieval with Dense Passage Vectors\nWe propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.\nMaya Patel, Noah Harris",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0008",
+        "title": "Efficient Retrieval with Dense Passage Vectors",
+        "published": "2023-08-08",
+        "authors_joined": "Maya Patel, Noah Harris",
+        "categories_joined": "Natural Language Processing, Information Retrieval",
+        "summary": "We propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0008",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0017::12",
+      "paper_id": "10.xxxx/sample-0017",
+      "title": "Chain-of-thought Reasoning in Agents",
+      "content": "Chain-of-thought Reasoning in Agents\nThis work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.\nLeo Martin",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0017",
+        "title": "Chain-of-thought Reasoning in Agents",
+        "published": "2023-05-17",
+        "authors_joined": "Leo Martin",
+        "categories_joined": "Artificial Intelligence, Computational Linguistics",
+        "summary": "This work focuses on prompt engineering techniques for improving LLM-based retrieval systems. We provide practical guidelines for prompt design and optimization.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0017",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0005::13",
+      "paper_id": "10.xxxx/sample-0005",
+      "title": "Reinforcement Learning for Information Retrieval",
+      "content": "Reinforcement Learning for Information Retrieval\nThis paper introduces a reinforcement learning approach to optimize retrieval systems. Experimental results show substantial improvements over supervised baselines.\nIris Park",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0005",
+        "title": "Reinforcement Learning for Information Retrieval",
+        "published": "2023-05-05",
+        "authors_joined": "Iris Park",
+        "categories_joined": "Artificial Intelligence, Computational Linguistics",
+        "summary": "This paper introduces a reinforcement learning approach to optimize retrieval systems. Experimental results show substantial improvements over supervised baselines.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0005",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0014::14",
+      "paper_id": "10.xxxx/sample-0014",
+      "title": "Zero-shot Learning for Cross-domain Retrieval",
+      "content": "Zero-shot Learning for Cross-domain Retrieval\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0014",
+        "title": "Zero-shot Learning for Cross-domain Retrieval",
+        "published": "2023-02-14",
+        "authors_joined": "Grace Lee, Henry Wong",
+        "categories_joined": "Natural Language Processing, Information Retrieval",
+        "summary": "We investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0014",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0002::15",
+      "paper_id": "10.xxxx/sample-0002",
+      "title": "Agentic Retrieval Systems with Neural Networks",
+      "content": "Agentic Retrieval Systems with Neural Networks\nWe propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.\nCharlie Brown, Diana Prince, Eve Wilson",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0002",
+        "title": "Agentic Retrieval Systems with Neural Networks",
+        "published": "2023-02-02",
+        "authors_joined": "Charlie Brown, Diana Prince, Eve Wilson",
+        "categories_joined": "Natural Language Processing, Information Retrieval",
+        "summary": "We propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0002",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0024::16",
+      "paper_id": "10.xxxx/sample-0024",
+      "title": "Federated Learning for Privacy-preserving Retrieval",
+      "content": "Federated Learning for Privacy-preserving Retrieval\nWe investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.\nGrace Lee, Henry Wong",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0024",
+        "title": "Federated Learning for Privacy-preserving Retrieval",
+        "published": "2022-12-24",
+        "authors_joined": "Grace Lee, Henry Wong",
+        "categories_joined": "Information Systems, Search",
+        "summary": "We investigate neural scaling laws in language models for retrieval tasks. Our analysis reveals important insights about model capacity and performance relationships.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0024",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0012::17",
+      "paper_id": "10.xxxx/sample-0012",
+      "title": "Domain Adaptation for Specialized Corpora",
+      "content": "Domain Adaptation for Specialized Corpora\nWe propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.\nCharlie Brown, Diana Prince, Eve Wilson",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0012",
+        "title": "Domain Adaptation for Specialized Corpora",
+        "published": "2022-12-12",
+        "authors_joined": "Charlie Brown, Diana Prince, Eve Wilson",
+        "categories_joined": "Information Systems, Search",
+        "summary": "We propose a novel agentic framework for building intelligent retrieval systems. Our approach demonstrates significant improvements in both accuracy and efficiency compared to baseline methods.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0012",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0021::18",
+      "paper_id": "10.xxxx/sample-0021",
+      "title": "Robust Retrieval under Noisy Conditions",
+      "content": "Robust Retrieval under Noisy Conditions\nThis paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.\nAlice Johnson, Bob Smith",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0021",
+        "title": "Robust Retrieval under Noisy Conditions",
+        "published": "2022-09-21",
+        "authors_joined": "Alice Johnson, Bob Smith",
+        "categories_joined": "Deep Learning, Neural Networks",
+        "summary": "This paper presents a comprehensive study of retrieval augmented generation systems using large language models. We evaluate various retrieval strategies and their impact on model performance across multiple benchmarks.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0021",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0009::19",
+      "paper_id": "10.xxxx/sample-0009",
+      "title": "Multi-hop Reasoning in Retrieval Augmented Systems",
+      "content": "Multi-hop Reasoning in Retrieval Augmented Systems\nThis paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task.\nOliver Scott",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0009",
+        "title": "Multi-hop Reasoning in Retrieval Augmented Systems",
+        "published": "2022-09-09",
+        "authors_joined": "Oliver Scott",
+        "categories_joined": "Deep Learning, Neural Networks",
+        "summary": "This paper addresses multi-hop reasoning in retrieval augmented systems. We introduce new evaluation metrics and benchmarks for this challenging task.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0009",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0018::20",
+      "paper_id": "10.xxxx/sample-0018",
+      "title": "Knowledge Distillation for Efficient Embeddings",
+      "content": "Knowledge Distillation for Efficient Embeddings\nWe propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.\nMaya Patel, Noah Harris",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0018",
+        "title": "Knowledge Distillation for Efficient Embeddings",
+        "published": "2022-06-18",
+        "authors_joined": "Maya Patel, Noah Harris",
+        "categories_joined": "Information Systems, Search",
+        "summary": "We propose efficient retrieval methods using dense passage vectors. Our approach reduces memory requirements while maintaining competitive performance.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0018",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0006::21",
+      "paper_id": "10.xxxx/sample-0006",
+      "title": "Knowledge Graphs and Vector Embeddings",
+      "content": "Knowledge Graphs and Vector Embeddings\nWe present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks.\nJack Turner, Karen Davis",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0006",
+        "title": "Knowledge Graphs and Vector Embeddings",
+        "published": "2022-06-06",
+        "authors_joined": "Jack Turner, Karen Davis",
+        "categories_joined": "Information Systems, Search",
+        "summary": "We present methods for integrating knowledge graphs with vector embeddings for enhanced retrieval. The proposed approach achieves state-of-the-art results on multiple benchmarks.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0006",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0015::22",
+      "paper_id": "10.xxxx/sample-0015",
+      "title": "Memory-efficient Embeddings for Large Collections",
+      "content": "Memory-efficient Embeddings for Large Collections\nThis paper introduces a reinforcement learning approach to optimize retrieval systems. Experimental results show substantial improvements over supervised baselines.\nIris Park",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0015",
+        "title": "Memory-efficient Embeddings for Large Collections",
+        "published": "2022-03-15",
+        "authors_joined": "Iris Park",
+        "categories_joined": "Deep Learning, Neural Networks",
+        "summary": "This paper introduces a reinforcement learning approach to optimize retrieval systems. Experimental results show substantial improvements over supervised baselines.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0015",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.xxxx/sample-0003::23",
+      "paper_id": "10.xxxx/sample-0003",
+      "title": "Fine-tuning Transformers for Semantic Search",
+      "content": "Fine-tuning Transformers for Semantic Search\nThis work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.\nFrank Zhang",
+      "metadata": {
+        "paper_id": "10.xxxx/sample-0003",
+        "title": "Fine-tuning Transformers for Semantic Search",
+        "published": "2022-03-03",
+        "authors_joined": "Frank Zhang",
+        "categories_joined": "Deep Learning, Neural Networks",
+        "summary": "This work explores fine-tuning strategies for transformer models in semantic search applications. We demonstrate how transfer learning can improve performance with limited labeled data.",
+        "abs_url": "https://doi.org/10.xxxx/sample-0003",
+        "pdf_url": ""
+      }
+    }
+  ]
+}
