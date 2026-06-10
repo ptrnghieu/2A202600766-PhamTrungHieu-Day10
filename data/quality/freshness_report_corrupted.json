@@ -1,0 +1,10 @@
+{
+  "latest_published": "2024-07-19",
+  "oldest_published": "2021-03-03",
+  "freshness_threshold_days": 180,
+  "total_rows": 23,
+  "fresh_rows": 0,
+  "stale_rows": 23,
+  "fresh_percentage": 0.0,
+  "is_fresh": false
+}
