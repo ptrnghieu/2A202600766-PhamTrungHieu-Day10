@@ -1,13 +1,13 @@
 {
   "report_name": "corrupted",
-  "run_date": "2026-06-10T13:46:16.298462+00:00",
+  "run_date": "2026-06-10T13:51:38.779017+00:00",
   "row_count": 23,
   "null_paper_id_count": 0,
   "duplicate_paper_ids": 1,
   "null_title_count": 0,
   "short_summary_count": 3,
   "null_summary_count": 0,
-  "invalid_dates": 23,
+  "invalid_dates": 0,
   "missing_metadata": 0,
   "all_checks_passed": false
 }

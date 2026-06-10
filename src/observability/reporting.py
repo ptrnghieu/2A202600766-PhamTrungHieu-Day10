@@ -141,18 +141,59 @@ def generate_corruption_report(
     md.append("## Analysis\n")
     impact = baseline_hit - corrupted_hit
     recovery = repaired_hit - corrupted_hit
+
+    md.append("### Corruption Impact\n")
     md.append(
-        f"**Corruption Impact:** Data corruption reduced retrieval hit rate by {impact:.1f}% points "
+        f"Data corruption reduced retrieval hit rate by {impact:.1f}% points "
         f"(from {baseline_hit:.1f}% to {corrupted_hit:.1f}%). "
     )
+
+    judge_impact = baseline_accuracy - corrupted_accuracy
+    f1_impact = baseline_f1 - corrupted_f1
+    md.append(f"This degradation is correlated with:\n")
+    md.append(f"- Judge accuracy drop: {judge_impact:.1f}% points\n")
+    md.append(f"- Token F1 decrease: {f1_impact:.3f}\n")
+    md.append("")
+
+    md.append("### Root Causes\n")
+    md.append("The corruption pipeline applied 6 realistic degradation types:\n")
+    md.append("1. **Dropped latest records** (10%) - Loss of newest content\n")
+    md.append("2. **Blanked summaries** (15%) - Loss of content features\n")
+    md.append("3. **Injected noise** (20%) - Noisy/misleading content\n")
+    md.append("4. **Truncated titles** (10%) - Loss of content context\n")
+    md.append("5. **Stale dates** (25%) - False freshness signals\n")
+    md.append("6. **Duplicate rows** (5%) - Data quality issues\n")
+    md.append("")
+
+    md.append("### Recovery Assessment\n")
     md.append(
-        f"**Recovery Success:** After repair, hit rate recovered by {recovery:.1f}% points "
-        f"(from {corrupted_hit:.1f}% to {repaired_hit:.1f}%), demonstrating the effectiveness of the repair process. "
+        f"After repair, hit rate recovered by {recovery:.1f}% points "
+        f"(from {corrupted_hit:.1f}% to {repaired_hit:.1f}%). "
     )
-    if repaired_hit >= baseline_hit * 0.95:
-        md.append("Overall, the repaired dataset closely matches baseline performance.")
+
+    if repaired_hit >= baseline_hit * 0.99:
+        md.append("✓ **Excellent Recovery:** The repaired dataset matches baseline performance virtually perfectly.")
+    elif repaired_hit >= baseline_hit * 0.95:
+        md.append("✓ **Good Recovery:** The repaired dataset closely matches baseline performance.")
+    elif repaired_hit >= baseline_hit * 0.85:
+        md.append("⚠ **Partial Recovery:** The repaired dataset shows residual degradation, suggesting some data issues persist.")
     else:
-        md.append("The repaired dataset shows some residual degradation compared to baseline.")
+        md.append("✗ **Limited Recovery:** The repaired dataset shows significant degradation, indicating repair process issues.")
+    md.append("")
+
+    md.append("### Key Findings\n")
+    avg_degradation = (judge_impact + (f1_impact * 100)) / 2
+    md.append(f"- **Average Degradation:** {abs(avg_degradation):.1f}% across all metrics\n")
+    md.append(f"- **Recovery Rate:** {(recovery / impact * 100) if impact > 0 else 100:.1f}% of impact reversed\n")
+    md.append(f"- **Data Rows:** {safe_get(corrupted_quality, 'row_count', 0)} → {safe_get(repaired_quality, 'row_count', 0)}\n")
+    md.append("")
+
+    md.append("### Recommendations\n")
+    if corrupted_quality.get('all_checks_passed') is False:
+        md.append("1. **Implement Data Quality Monitoring** - Continuous checks to detect corruption early\n")
+    md.append("2. **Version Control for Datasets** - Track data changes over time\n")
+    md.append("3. **Regular Validation** - Test retrieval performance regularly\n")
+    md.append("4. **Source Validation** - Verify data freshness and completeness before indexing\n")
     md.append("")
 
     content = "\n".join(md)
